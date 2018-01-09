@@ -1,0 +1,261 @@
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+body {
+
+    font-family: tahoma;
+}
+
+.hero {
+
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+
+    color: white;
+}
+
+.main-nav {
+
+    float: right;
+    list-style-type: none;
+    margin-top: 60px;
+}
+
+.main-nav li {
+
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.main-nav li a:hover {
+    color: #e67e22;
+    border-bottom: 2px solid #e67e22;
+    transition: all 0.5s ease-in;
+    padding: 10px 0px;
+}
+
+.main-nav li a {
+    color: white;
+    text-decoration: none;
+    font-size: 90%;
+    font-weight: bold;
+}
+
+.logo img {
+    height: 80px;
+    float: left;
+    margin-top: 35px;
+}
+
+.btn {
+    border: 1px solid #e67e22;
+    padding: 10px 30px;
+    color: #e67e22;
+    text-decoration: none;
+    border-radius: 12px;
+    margin-right: 15px;
+    margin-top: 40px;
+}
+
+.button-awesome {
+    margin-top: 40px;
+}
+
+.btn-half {
+    background-color: #e67e22;
+    color: white;
+}
+
+.btn-full:hover {
+    background-color: #e67e22;
+    color: white;
+    transition: all 0.5s ease-in;
+}
+
+.copy {
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 20px;
+}
+
+h3:after {
+    width: 100px;
+    height: 2px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: #e67e22;
+    display: block;
+    content: "";
+}
+
+.features h3 {
+
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.arranging {
+    text-align: justify;
+}
+
+.features i {
+    font-size: 40px;
+    color: #e67e22;
+    margin-left: 35%;
+}
+
+.features h4 {
+    margin-left: 40px;
+}
+
+.meal-showcase {
+    list-style-type: none;
+    width: 100%;
+}
+
+.meal-showcase li {
+    display: block;
+    width: 25%;
+    float: left;
+}
+
+.meal-photo {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+.meal-photo img {
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    transition: all 0.5s;
+}
+
+.meal-photo img:hover {
+    transform: scale(1.05);
+}
+
+.meal {
+    margin-top: 8px;
+}
+
+.pic img {
+    width: 40%;
+    margin-left: 50%;
+    margin-top: 50px;
+}
+
+.work-step {
+    margin-top: 50px;
+}
+
+.work-step div {
+    border: 1px solid #e67e22;
+    display: inline-block;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.work-step img {
+    height: 40px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    content: ".";
+    height: 0;
+    display: block;
+    clear: both;
+}
+
+.mobile {
+    margin-top: 60px;
+}
+
+.cities {
+    margin-top: 100px;
+}
+
+.cities img {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.cities i {
+    color: #e67e22;
+}
+
+.testimonials {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(img/tomato.jpg);
+    	padding-top: 80px;
+	padding-bottom: 60px;
+	color: white;
+	background-attachment: fixed;
+}
+.testimonials p
+{
+	color: white;
+	line-height: 25px;
+	text-align: justify;
+	margin-top: 40px;
+}
+.testimonials  cite img
+{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin-right: 10px;
+	
+
+}
+.btn-block
+{
+	background-color: #e67e22;
+	color: white;
+	border-radius: 4px;
+	margin-top: 20px;
+
+
+}
+.gap
+{
+	margin-top: 40px;
+
+}
+.form
+{
+margin-top: 40px;
+	
+}
